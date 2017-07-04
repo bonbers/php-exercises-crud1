@@ -50,7 +50,6 @@ $req = $bdd->query('SELECT * FROM clients LIMIT 20');
 while ($data = $req->fetch()){
     ?>
 
-
     <p>Nom et Prenom des Clients:<b><?php echo ($data->lastName); ?> <?php echo ($data->firstName); ?></b></p>
 
     <?php
